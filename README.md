@@ -32,9 +32,12 @@ A Blank Document opens up into which the following source code can be typed down
 
 ## a)To Verify the Functionality using Test Bench
 
+![a258887a-697f-44bf-81d8-0bd33f7162c8](https://github.com/user-attachments/assets/6dd4bb7d-bb04-4b98-9087-a59d2d123ac9)
+
+
 ## Source Code – Using Case Statement :
 
-(Include program here)
+(include program here)
 
 Use Save option or Ctrl+S to save the code or click on the save option from the top most right corner and close the text file.
 
@@ -44,7 +47,8 @@ Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.v
 
 ## Test Bench :
 
-(Include test bench program here)
+![image](https://github.com/user-attachments/assets/9d015fd1-f466-4d1e-a290-b47347b79915)
+
 
 Use Save option or Ctrl+S to save the code or click on the save option from the top most right corner and close the text file.
 
@@ -62,6 +66,9 @@ After this you can see the window like below
 
 ### Fig 2: Invoke the Cadence Environment
 
+![Screenshot 2025-05-15 123513](https://github.com/user-attachments/assets/98598478-1083-40c8-9d98-018a8b0525bc)
+
+
 To Launch Simulation tool 
 
 •linux:/> nclaunch -new& // “-new” option is used for invoking NCVERILOG for the first time for any design 
@@ -74,6 +81,9 @@ or
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 
 ### Fig 3: Setting Multi-step simulation
+![Screenshot 2025-05-15 123621](https://github.com/user-attachments/assets/d85f3847-49db-42ee-991c-868bf82386c6)
+
+
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure 
 
@@ -89,9 +99,11 @@ We are simulating verilog design without using any libraries
 
 A Click “OK” in the “nclaunch: Open Design Directory” window as shown in below figure 
 
-![image](https://github.com/user-attachments/assets/d5202b97-ee5c-4e0e-9eaf-5f3fa733e546)
+![image](https://github.com/user-attachments/assets/6778d6f6-86c0-425b-b6b2-29ad73def1b2)
 
 ### Fig 5: Selection of Don’t include any libraries
+![image](https://github.com/user-attachments/assets/e3539014-7bbb-4956-8fbc-33946f929dd3)
+
 
 A ‘NCLaunch window’ appears as shown in figure below
 
@@ -102,6 +114,8 @@ Worklib is the directory where all the compiled codes are stored while Snapshot 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
 
 ### Fig 6: Nclaunch Window
+![Screenshot 2025-05-15 123733](https://github.com/user-attachments/assets/c71b3ae6-949e-4089-a913-5eef8f0db644)
+
 
 ## Step 1: Compilation:
 
@@ -126,6 +140,9 @@ Left side select the file and in Tools : launch verilog compiler with current se
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
 
 ### Fig 7: Compiled database in worklib
+![Screenshot 2025-05-15 123733](https://github.com/user-attachments/assets/fa2e420b-90e4-4913-9b72-b864c8ea6a98)
+
+
 
 After compilation it will come under worklib you can see in right side window
 
@@ -160,6 +177,9 @@ Outputs: Elaborate database updated in mapped library if successful, generates r
 After elaboration the file will come under snapshot. Select the test bench and simulate it.
 
 ## Fig 8: Elaboration Launch Option
+![image](https://github.com/user-attachments/assets/9da23868-4bad-4249-88c6-9e1468106b03)
+
+
 
 ## Step 3: Simulation: 
 
@@ -174,10 +194,16 @@ Simulation allow to dump design and test bench signals into a waveform
 Steps for simulation – Run the simulation command with simulator options
 
 ## Fig 9: Design Browser window for simulation
+![Screenshot 2025-05-15 123911](https://github.com/user-attachments/assets/d4f94b7a-3455-4620-88c6-e8185e5a4e43)
+
 
 ## Fig 10:Simulation Waveform Window
+![Screenshot 2025-05-15 123938](https://github.com/user-attachments/assets/afb864ed-1e25-4d6e-b454-d76b1300e834)
+
 
 ## Fig 11:Simulation Waveform Window
+![Screenshot 2025-05-15 123954](https://github.com/user-attachments/assets/209712a0-f08e-46d6-ae8f-451209407497)
+
 
 ### Result
 
